@@ -1,4 +1,5 @@
 /*layout*/
+
 html, body, #home {
     height: 100%; /*Applying 100% height to center content on the page*/
 }
@@ -11,25 +12,22 @@ body {
 }
 
 /*navgation bar*/
+
 nav.navbar-transparent {
     padding: 15px, 0px;
     background: rgba(0,0,0,.6);
 }
-
 .navbar-light .navbar-nav .nav-link {
     color: white;
 
 }
-
 .navbar-light .navbar-nav .nav-link:hover {
     color: #9bf0e1;
 }
-
 .navbar-light .navbar-toggler {
     color: rgba(255,255,255,.5);
     border-color: rgba(255,255,255,.5);
 }
-
 .divider {
     width: 1px;
     background: white;
@@ -37,8 +35,31 @@ nav.navbar-transparent {
 }
 
 /*Cover*/
+
 .cover {
     text-align: center;
+}
+.btn-custom {
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+.btn-purple {
+    background: #7c25f8;
+}
+.btn-purple:hover {
+    background: #6207e3;
+    color: #fff;
+}
+.btn-white {
+    border: 2px solid #fff;
+}
+.btn-white:hover {
+    background: #fff;
+    color: #000;
 }
 
 /*Typography*/
@@ -46,14 +67,19 @@ h1 {
     font-weight: 900;
     letter-spacing: -0,05em;
     margin-bottom: 50px;
-    color: white;
+    color: #fff;
 }
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-
+    .btn-custom {
+        margin: 10px 15px;
+    }
 }
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
+    .btn-custom {
+        margin: 10px 15px;
+    }
     h1 {
         font-size: 3em;
     }
