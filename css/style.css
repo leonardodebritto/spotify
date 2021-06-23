@@ -62,6 +62,9 @@ nav.navbar-transparent {
     background: #fff;
     color: #000;
 }
+.carousel-control-next, .carousel-control-prev {
+    width: 5%; 
+}
 
 /*Content structure*/
 .box {
